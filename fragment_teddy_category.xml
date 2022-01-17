@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.TeddyCategory">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back2"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittxt_background"
+            android:drawableRight="@drawable/search"
+            android:ems="10"
+            android:hint="Find your Teddy..."
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Teddy Bears"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="20dp">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text='Whether young or young-at-heart, there is a Steiff Teddy for everyone. We invented this classic toy nearly 120 years ago. Generations later, our famous quality Teddies with the legendary "Button in Ear" are as treasured as ever. There are cute-and-cuddly bears for children, and soft-and-sweet bruins for babies. All are fully machine washable. And adult collectors can shop our classic assortment of artisan-crafted Teddies in the traditional styles that made our company famous.' />
+        </androidx.cardview.widget.CardView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageViesw4"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:background="@drawable/item_back"
+                            android:padding="10dp"
+                            android:src="@drawable/teddy" />
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Mix Teddy"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="RS.3000"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/button4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="View More"
+                            android:textColor="#000000"
+                            app:backgroundTint="@color/btn"
+                            app:cornerRadius="15dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageViessw4"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:background="@drawable/item_back"
+                            android:padding="10dp"
+                            android:src="@drawable/teddy1" />
+
+                        <TextView
+                            android:id="@+id/textVidew17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Stuffed Teddy"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/textVdiew16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="RS.2000"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/buttdon4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="View More"
+                            android:textColor="#000000"
+                            app:backgroundTint="@color/btn"
+                            app:cornerRadius="15dp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imagerViesw4"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:background="@drawable/item_back"
+                            android:padding="10dp"
+                            android:src="@drawable/teddy3" />
+
+                        <TextView
+                            android:id="@+id/textsView17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Red Teddy"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/textVsiew16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="RS.3000"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/butston4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="View More"
+                            android:textColor="#000000"
+                            app:backgroundTint="@color/btn"
+                            app:cornerRadius="15dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imagseViessw4"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:background="@drawable/item_back"
+                            android:padding="10dp"
+                            android:src="@drawable/teddy4" />
+
+                        <TextView
+                            android:id="@+id/textsVidew17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Mikky Teddy"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/texstVdiew16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="RS.1000"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/buttdosn4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="View More"
+                            android:textColor="#000000"
+                            app:backgroundTint="@color/btn"
+                            app:cornerRadius="15dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageeViesw4"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:background="@drawable/item_back"
+                            android:padding="10dp"
+                            android:src="@drawable/imagephoo" />
+
+                        <TextView
+                            android:id="@+id/textVieew17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Pho Teddy"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/texteView16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="RS.3000"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/buetton4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="View More"
+                            android:textColor="#000000"
+                            app:backgroundTint="@color/btn"
+                            app:cornerRadius="15dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageVeiessw4"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:background="@drawable/item_back"
+                            android:padding="10dp"
+                            android:src="@drawable/teddy6" />
+
+                        <TextView
+                            android:id="@+id/textVideew17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="White Teddy"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/textVdieew16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="RS.1500"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/buttdeon4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="View More"
+                            android:textColor="#000000"
+                            app:backgroundTint="@color/btn"
+                            app:cornerRadius="15dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</FrameLayout>
